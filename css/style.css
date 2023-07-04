@@ -1,0 +1,266 @@
+/* font start*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@400;500;700&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@400;500;700&family=Roboto&family=Ubuntu:wght@300&display=swap');
+/*font end*/
+/*common start*/
+body{
+	font-family:'Poppins', sans-serif; 
+	font-size:16px ;
+	font-weight:400 ;
+	color:#000000; 
+}
+
+/*common end*/
+/*header start*/
+
+header{
+	background-color:#d8f6cb;
+	padding:15px 0;
+}
+.cnav{}
+.logo{
+	width: 200px;
+}
+.ntgl :focus {
+	box-shadow: none;
+
+}
+.menu{}
+.menu ul li a{ 
+	padding:0 20px !important;
+	color: #000000 !important;
+	line-height:24px ;
+}
+.menu ul li a:hover{
+	color: #FD511A !important;
+}
+.btn_s {
+	margin-left: 10px;
+	width: 105px;
+	height: 45px;
+}
+.btn_c{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	background-color: #21B573;
+	border-radius: 33px;
+	border: 0;
+	font-family: 'Roboto', sans-serif;
+  	color:#FFFFFF;  
+ 	line-height: 19px;
+}
+.btn_c:hover{
+		background-color: #FD511A !important;
+		color:#FFFFFF;	
+
+} 	
+.btn_c:active{
+		background-color: #FD511A !important;
+		color: #FFFFFF !important;	
+} 	
+
+/*header end*/
+/*banner start*/
+.banner{
+	background-color: #d8f6cb;
+	padding-bottom: 65px;
+}
+.b_text{}
+.bp1{
+	color: #FD511A;
+	line-height: 24px;
+}
+.bh1{
+	margin:10px 0 20px;
+	padding: 0 40px 0 0;
+	font-size: 48px;
+	font-weight: 700;
+	color: #000000;
+	line-height: 70px;
+}
+.bh1 span{
+	color: #21B573;
+}
+.bp2{
+	line-height: 36px;
+}
+.btn_link{
+	margin-top: 15px;
+	width: 155px;
+	height: 45px;
+}
+.b_img{
+
+}
+.b_img img{
+	width: 100%;
+}
+
+/*banner end*/
+/*feature start*/
+.feature{
+	padding:0 0 100px;
+	text-align:center;
+}
+.s_feature{
+	margin-top:40px;
+	padding:55px 0 50px;
+	background-color: #ddf0e0;
+	border-radius: 10px;
+	transition:.33s;
+
+}
+.s_feature:hover{
+	background-color: #FFFFFF;
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.s_img{
+	margin: 0 auto 20px;
+	width: 60px;
+	height: 70px;
+}
+.s-img img{
+	width:100%;
+
+}
+.s_h2{
+	margin-top: 22px;
+	font-size: 24px;
+	font-weight: 500;
+	color: #000000;
+	line-height: 36px;
+}
+.s_p{
+	line-height: 24px;
+}
+/*feature end*/
+/*course start*/
+
+
+.course{
+	padding-bottom: 100px;
+	
+}
+
+.c_title {
+    
+}
+
+.c_h1{
+	font-size:36px ;
+	font-weight:700 ;
+	color:#000000;
+	line-height:54px ;
+
+}
+.course_item{
+	margin: 60px 0 0;
+	padding: 25px 24px 30px;
+	background-color: #FFF;
+	border-radius: 18px;
+	box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.10);
+}
+.course_img{}
+.course_img img{
+		width: 100%;
+		border-radius:10px;
+}
+.course_h2{
+		margin: 20px 0 5px;
+		font-size: 24px;
+		font-weight: 500;
+		color: #000000;
+		line-height: 36px;
+}
+.course_p{
+		line-height: 24px;
+}
+.course_a{
+	margin: 20px 0 35px;
+	width: 140px !important;
+	height: 35px !important;
+}
+
+.c_footer{}
+.c_left{}
+.cli:not(:last-child){
+	margin-right: 2px;
+}
+.c_left ul li img,.c_right ul li img {
+
+}
+.c_left u l li span,.c_right ul li span{
+	font-weight: 500;
+}
+
+.c_right{}
+
+/*course end*/
+/*testimony start*/
+.testimony{
+	padding-bottom: 100px;
+	
+}
+.t_item{
+	margin-top: 60px;
+}
+.t_img{}
+.t_img img{
+	width:100%;
+}
+.t_text{}
+.t_text p{
+	 
+}
+
+
+/*testimony end*/
+/*footer top start*/
+.footer_top{
+		padding: 55px 0 55px;
+		background-color: #282531;
+}
+.m_b{
+	margin-bottom: 35px !important;
+} 
+.ft_details{
+	padding-right: 120px;
+}
+.ft_details p{
+	color: #FFFFFF;
+	line-height: 30px;
+}
+.ft_links{
+
+}
+
+.ft_links h2 {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 30px;
+} 
+.ft_links ul li a{
+	margin-bottom: 8px;
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+/*footer top end */
+/*footer start*/
+footer{
+	padding: 20px 0 30px;
+	background-color:#282531;
+
+}
+footer p{
+	color: white;
+	line-height: 30px;	
+}
+footer p a{
+	color: white;
+	 	
+}
+/*footer end*/
